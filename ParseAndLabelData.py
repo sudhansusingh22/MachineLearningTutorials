@@ -28,7 +28,7 @@ def Key_Stats(gather = "Total Debt/Equity (mrq)"):
                                'Difference',
                                'Status'])
     ticker_list = []
-    for each_dir in stock_list[1:]:
+    for each_dir in stock_list[1:25]:
         each_file = os.listdir(each_dir)
         ticker = each_dir.split("/")[-1]
         ticker_list.append(ticker)
