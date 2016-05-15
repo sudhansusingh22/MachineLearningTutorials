@@ -1,5 +1,5 @@
-import matplotlib.pyplot as plt
-from sklearn  import datasets
+# import matplotlib.pyplot as plt
+# from sklearn  import datasets
 from sklearn import svm, preprocessing
 import numpy as np
 import pandas as pd
@@ -49,6 +49,7 @@ FEATURES = ["DE Ratio",
 def Build_Data_Set(features = FEATURES):
     data_df = pd.DataFrame.from_csv("key_stats.csv")
 #     data_df = data_df[:100]
+    data_df = data_df.reindex(np.random.permutation(data_df.index))
     X = np.array(data_df[features].values)
     y = (data_df["Status"].replace("underperform",0).replace("outperform",1).values.tolist())
     X = preprocessing.scale(X)
@@ -87,4 +88,12 @@ def Analysis():
     plt.legend()
     plt.show()
     """
+
+def randomizing():
+    df = pd.DataFrame({"D1":range(5),"D2":range(5)})
+    print(df)    
+    df = df.reindex(np.random.permutation(df.index))
+    print(df)
+    
 Analysis()
+randomizing()
