@@ -14,4 +14,16 @@
 	<natures>
 		<nature>org.python.pydev.pythonNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>breast-cancer-wisconsin.data</name>
+			<type>1</type>
+			<location>/home/sud/workspace/MachineLearningTutorials/breast-cancer-wisconsin.data</location>
+		</link>
+		<link>
+			<name>breast-cancer-wisconsin.names</name>
+			<type>1</type>
+			<location>/home/sud/workspace/MachineLearningTutorials/breast-cancer-wisconsin.names</location>
+		</link>
+	</linkedResources>
 </projectDescription>
