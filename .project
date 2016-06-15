@@ -26,6 +26,11 @@
 			<location>/home/sud/workspace/MachineLearningTutorials/breast-cancer-wisconsin.names</location>
 		</link>
 		<link>
+			<name>decision_tree</name>
+			<type>2</type>
+			<location>/home/sud/Desktop/ud120-projects/decision_tree</location>
+		</link>
+		<link>
 			<name>naive_bayes</name>
 			<type>2</type>
 			<location>/home/sud/Desktop/ud120-projects/naive_bayes</location>
