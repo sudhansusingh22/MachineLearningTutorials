@@ -40,5 +40,10 @@
 			<type>2</type>
 			<location>/home/sud/Desktop/ud120-projects/svm</location>
 		</link>
+		<link>
+			<name>tools</name>
+			<type>2</type>
+			<location>/home/sud/workspace/MachineLearningTutorials/tools</location>
+		</link>
 	</linkedResources>
 </projectDescription>
