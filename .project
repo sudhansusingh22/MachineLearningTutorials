@@ -41,6 +41,11 @@
 			<location>/home/sud/Desktop/ud120-projects/naive_bayes</location>
 		</link>
 		<link>
+			<name>regression</name>
+			<type>2</type>
+			<location>/home/sud/Desktop/ud120-projects/regression</location>
+		</link>
+		<link>
 			<name>svm</name>
 			<type>2</type>
 			<location>/home/sud/Desktop/ud120-projects/svm</location>
