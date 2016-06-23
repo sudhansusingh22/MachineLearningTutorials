@@ -41,6 +41,11 @@
 			<location>/home/sud/Desktop/ud120-projects/naive_bayes</location>
 		</link>
 		<link>
+			<name>outliers</name>
+			<type>2</type>
+			<location>/home/sud/Desktop/ud120-projects/outliers</location>
+		</link>
+		<link>
 			<name>regression</name>
 			<type>2</type>
 			<location>/home/sud/Desktop/ud120-projects/regression</location>
