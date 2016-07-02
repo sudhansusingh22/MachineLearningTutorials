@@ -36,6 +36,11 @@
 			<location>/home/sud/Desktop/ud120-projects/datasets_questions/explore_enron_data.py</location>
 		</link>
 		<link>
+			<name>k_means</name>
+			<type>2</type>
+			<location>/home/sud/Desktop/ud120-projects/k_means</location>
+		</link>
+		<link>
 			<name>naive_bayes</name>
 			<type>2</type>
 			<location>/home/sud/Desktop/ud120-projects/naive_bayes</location>
