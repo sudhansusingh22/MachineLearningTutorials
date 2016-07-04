@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 from sklearn import svm
 from matplotlib import style
 style.use("ggplot")
-
 x = [1,5,1.5,6,3,7]
 y = [2,8,1.8,8,4,13]
 
